@@ -55,12 +55,15 @@ pip install -r requirements.txt
 параметры:
 
 ```
-HOST=Адрес вашей БД
-NAME=Имя БД
+ENGINE=Драйвер
+HOST=Адрес хоста
+PORT=Порт
+NAME=Имя хоста
 USER=Имя пользователя
 PASSWORD=Пароль
 SECRET_KEY=Секретный ключ сайта
 DEBUG=Найстройка режима отладки(True или False)
+ALLOWED_HOSTS=Разрешенные хосты(можно несколько, через запятую)
 ```
 
 ### Использование
